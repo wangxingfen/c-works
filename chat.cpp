@@ -37,7 +37,7 @@ struct curl_slist* setHeaders() {
     struct curl_slist* headers = NULL;
     headers = curl_slist_append(headers, "Content-Type: application/json");
     // 你需要在这里替换为你的实际API密钥
-    headers = curl_slist_append(headers, "Authorization: Bearer sk-jaoqxbvmrbmvjtnlhcetvvnfhcwjffdkbjpixpvmxwefixrh");
+    headers = curl_slist_append(headers, "Authorization: Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
     return headers;
 }
 
